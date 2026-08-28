@@ -58,8 +58,7 @@ The dataset is not included in this repository due to size. Download it from:
 - **Source**: [Chest X-Ray Pneumonia Dataset (Kaggle)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
 - Extract the contents into `ml_pipeline/data/raw/`
 
-5. **Download the Pre-trained Model**
-Place your `best_model.pth` in `ml_pipeline/models/`
+5. **Train the model**
 
 7. **Run the Application**
 ```bash
