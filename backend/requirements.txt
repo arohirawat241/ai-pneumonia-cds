@@ -1,0 +1,14 @@
+fastapi
+uvicorn
+python-multipart
+pydantic
+torch
+torchvision
+Pillow
+sqlalchemy
+python-jose
+passlib
+bcrypt==3.2.2
+grad-cam
+opencv-python-headless
+numpy

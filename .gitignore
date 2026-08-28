@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+venv/
+env/
+*.db
+
+# ML Models & Data (The heavy stuff)
+*.pth
+ml_pipeline/data/
+ml_pipeline/models/
+
+# Node / React (The other heavy stuff)
+node_modules/
+frontend/build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
