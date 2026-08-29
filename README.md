@@ -56,7 +56,7 @@ npm install
 ### 4. Dataset and Model Setup
 
 **Option A: Use the Pre-trained Model (Recommended & Fastest)**
-The repository already includes a pre-trained, quantized model (`best_model_int8.pth` or `best_model.pth`) in the `ml_pipeline/` directory. You can skip directly to Step 5.
+The repository already includes a pre-trained, quantized model (`best_model_int8.pth` or `best_model.pth`) in the `ml_pipeline/models` directory. You can skip directly to Step 5.
 
 **Option B: Train the Model from Scratch (Optional)**
 If you wish to train or fine-tune the model yourself:
