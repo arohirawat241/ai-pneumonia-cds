@@ -53,13 +53,25 @@ pip install bcrypt==3.2.2  # Compatibility fix
 cd ../frontend
 npm install
 ```
-4. **Download the Dataset**
-The dataset is not included in this repository due to size. Download it from:
-- **Source**: [Chest X-Ray Pneumonia Dataset (Kaggle)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
-- Extract the contents into `ml_pipeline/data/raw/`
+### 4. Dataset and Model Setup
 
-5. **Train the model**
+**Option A: Use the Pre-trained Model (Recommended & Fastest)**
+The repository already includes a pre-trained, quantized model (`best_model_int8.pth` or `best_model.pth`) in the `ml_pipeline/` directory. You can skip directly to Step 5.
 
+**Option B: Train the Model from Scratch (Optional)**
+If you wish to train or fine-tune the model yourself:
+1. Download the dataset: [Chest X-Ray Pneumonia Dataset (Kaggle)](https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia)
+2. Extract the contents into the `ml_pipeline/data/raw/` directory.
+3. Run your training script to generate a new `.pth` model file in `ml_pipeline/models/`.
+
+### 5. Run the Application
+
+Open **two separate** terminal windows in your project root:
+
+**Terminal 1: Start the Backend**
+```bash
+cd backend
+python app/main.py
 7. **Run the Application**
 ```bash
 # Terminal 1 - Backend
